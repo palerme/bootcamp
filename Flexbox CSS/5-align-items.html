@@ -49,7 +49,17 @@
 
         .column{
             flex-direction: column;
-        }	
+        }
+        
+        .central {
+            justify-content: center;
+            height: 300px;
+        }
+
+        .central .item {
+            flex: 0;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
@@ -119,7 +129,7 @@
     </section>
 
     <p>base line</p>
-    <section class="container baseLine column">
+    <section class="container central center">
         <div class="item">Item 1</div>
         <div class="item">Lorem ipsum dolor sit amet</div>
         <div class="item">Item 3 mais algum texto Lipsum dolor test</div>
